@@ -1,0 +1,28 @@
+{
+	"name": "Express-Socket.io",
+	"version": "1.0.0",
+	"description": "Demo for Mision Tic 2022",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node -r esm server.js",
+		"client": "node -r esm client.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/demarchenac/Express-Socket.io.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/demarchenac/Express-Socket.io/issues"
+	},
+	"homepage": "https://github.com/demarchenac/Express-Socket.io#readme",
+	"dependencies": {
+		"esm": "^3.2.25",
+		"express": "^4.17.1",
+		"socket.io": "^4.3.1",
+		"socket.io-client": "^4.3.2"
+	}
+}
