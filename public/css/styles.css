@@ -1,0 +1,41 @@
+p {
+	color: #202020;
+	margin-bottom: 0px !important;
+}
+
+.br-end-15 {
+	border-radius: 0px 15px 15px 0px !important;
+}
+.br-start-15 {
+	border-radius: 15px 0px 0px 15px !important;
+}
+
+.hidden {
+	display: none !important;
+}
+
+.user span {
+	color: #0f4c81;
+	font-weight: bold;
+}
+
+.anyone span {
+	color: #5f4b8b;
+	font-weight: bold;
+}
+
+.system {
+	color: #c0c0c0;
+}
+
+.system span {
+	font-weight: bold;
+}
+
+#feed {
+	height: 50vh;
+	max-height: 50vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+	word-wrap: break-all;
+}

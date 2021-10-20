@@ -5,7 +5,7 @@
 	"main": "server.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "node -r esm server.js",
+		"start": "nodemon --exec babel-node src/server.js",
 		"client": "node -r esm client.js"
 	},
 	"repository": {
@@ -20,9 +20,15 @@
 	},
 	"homepage": "https://github.com/demarchenac/Express-Socket.io#readme",
 	"dependencies": {
-		"esm": "^3.2.25",
+		"compression": "^1.7.4",
 		"express": "^4.17.1",
-		"socket.io": "^4.3.1",
-		"socket.io-client": "^4.3.2"
+		"socket.io": "^4.3.1"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.15.7",
+		"@babel/core": "^7.15.8",
+		"@babel/node": "^7.15.8",
+		"@babel/preset-env": "^7.15.8",
+		"nodemon": "^2.0.14"
 	}
 }
