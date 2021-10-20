@@ -2,10 +2,9 @@ import express from 'express';
 import compression from 'compression';
 import { createServer } from 'http';
 
-import CONFIG from './constants/config.json';
 import { configureSocketSever, reset, users } from './socket-server';
 
-const PORT = CONFIG.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 const httpServer = createServer(app);
